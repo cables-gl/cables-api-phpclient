@@ -1,0 +1,16 @@
+<phpunit bootstrap="test/bootstrap.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolations="true"
+         stopOnFailure="true"
+         syntacCheck="false"
+         backupGlobals="false"
+>
+    <testsuites>
+        <testsuite name="Integration Tests">
+            <directory>./test/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
